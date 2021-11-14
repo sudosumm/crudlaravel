@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: sans;
+    src: url(../fonts/IranSans.eot);
+    src: url(../fonts/IranSans.eot) format('eot');
+    src: url(../fonts/IranSans.eot?#iefix) format('embedded-opentype'), url(../fonts/IranSans.woff) format('woff'), url(../fonts/IranSans.ttf) format('truetype');
+    font-weight: normal;
+    unicode-range: U+0600 -U+06 FF;
+    font-style: normal;
+    font-variant: normal;
+}
+
+*:not(i) {
+    font-family: sans, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+.sans {
+    font-family: sans, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+.panel-title {
+    font-family: sans, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+span.mce-txt, span.mce-text {
+    font-family: sans, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+    text-align: center;
+}
+
+form#pp *:not(i) {
+    font-family: sans, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+body.mce-content-body, body.mce-content-body * {
+    font-family: sans, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+body#tinymce {
+    font-family: sans, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+html .mce-content-body * {
+    font-family: sans, Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+select.s-f {
+    font-size: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+}
